@@ -1,0 +1,6 @@
+C:\Users\Lorca\RiderProjects\ProjectEuler\bin\Debug\ProjectEuler.exe
+C:\Users\Lorca\RiderProjects\ProjectEuler\bin\Debug\ProjectEuler.pdb
+C:\Users\Lorca\RiderProjects\ProjectEuler\obj\Debug\ProjectEuler.csprojAssemblyReference.cache
+C:\Users\Lorca\RiderProjects\ProjectEuler\obj\Debug\ProjectEuler.csproj.CoreCompileInputs.cache
+C:\Users\Lorca\RiderProjects\ProjectEuler\obj\Debug\ProjectEuler.exe
+C:\Users\Lorca\RiderProjects\ProjectEuler\obj\Debug\ProjectEuler.pdb
