@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace ProjectEuler
 {
@@ -21,7 +20,9 @@ namespace ProjectEuler
             
             Console.WriteLine($"Problem5 :  What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?. Answer : {Problem5.Solve()}");
             
-            Console.WriteLine($"Problem6 :  Find the difference between the sum of the squares of the first 100 natural numbers and the square of the sum. Answer : {Problem6.Solve(5)}");
+            Console.WriteLine($"Problem6 :  Find the difference between the sum of the squares of the first 100 natural numbers and the square of the sum. Answer : {Problem6.Solve(100)}");
+            
+            Console.WriteLine($"Problem7 :  What is the 10 001st prime number? Answer : {Problem7.Solve1(10001)}");
         }
     }
 }
