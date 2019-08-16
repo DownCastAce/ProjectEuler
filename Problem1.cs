@@ -12,7 +12,7 @@ namespace ProjectEuler
     {
         public static long ForLoopSolution(long a, long b, long belowValue)
         {
-            Stopwatch timer = Stopwatch.StartNew();
+            
             long sum = 0;
 
             for (long i = 0; i < belowValue; i++)
@@ -22,8 +22,6 @@ namespace ProjectEuler
                     sum += i;
                 }
             }
-            timer.Stop();
-            Console.WriteLine($"ForLoop time : {timer.ElapsedMilliseconds}");
             return sum;
         }
         

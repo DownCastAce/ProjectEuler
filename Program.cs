@@ -16,6 +16,8 @@ namespace ProjectEuler
             Console.WriteLine("Problem2: By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.\nProblem2 Answer : " + Problem2.Solve(Problem2FibLimt));
             
             Console.WriteLine("Problem3: What is the largest prime factor of the number 600851475143?\nProblem3 Answer : " + Problem3.Solve(Problem3LargestPrime));
+            
+            Console.WriteLine("Problem4 :  Find the largest palindrome made from the product of two 3-digit numbers. Answer : " + Problem4.Solve());
         }
     }
 }
