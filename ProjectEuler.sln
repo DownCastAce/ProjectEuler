@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "ProjectEuler.csproj", "{485CF3A1-BA4C-4355-AD75-8872993EDCBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEulerTests", "ProjectEulerTests\ProjectEulerTests.csproj", "{B8AF7F75-3D44-455A-801F-39A56C7A3555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{485CF3A1-BA4C-4355-AD75-8872993EDCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{485CF3A1-BA4C-4355-AD75-8872993EDCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{485CF3A1-BA4C-4355-AD75-8872993EDCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AF7F75-3D44-455A-801F-39A56C7A3555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AF7F75-3D44-455A-801F-39A56C7A3555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AF7F75-3D44-455A-801F-39A56C7A3555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AF7F75-3D44-455A-801F-39A56C7A3555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

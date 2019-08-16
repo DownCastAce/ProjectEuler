@@ -27,7 +27,6 @@ namespace ProjectEuler
         
         public static long FormulaSolution(long a, long b, long belowValue)
         {
-            Stopwatch timer = Stopwatch.StartNew();
             long sum = 0;
             long nForA = (belowValue) / a;
             long resultForA = a * nForA * (nForA+1)/2;
@@ -43,11 +42,7 @@ namespace ProjectEuler
                 resultForC = c * nForC * (nForC+1)/2;
             }
 
-            sum = resultForA + resultForB - resultForC;
-            
-            timer.Stop();
-            Console.WriteLine($"Formula time : {timer.ElapsedMilliseconds}");
-            return sum;
+            return resultForA + resultForB - resultForC;
         }
     }
 }
