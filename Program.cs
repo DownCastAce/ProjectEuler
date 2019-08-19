@@ -23,6 +23,8 @@ namespace ProjectEuler
             Console.WriteLine($"Problem6 :  Find the difference between the sum of the squares of the first 100 natural numbers and the square of the sum. Answer : {Problem6.Solve(100)}");
             
             Console.WriteLine($"Problem7 :  What is the 10 001st prime number? Answer : {Problem7.Solve1(10001)}");
+            
+            //Console.WriteLine($"Problem8 :  Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product? Answer : {Problem8.Solve1(10001)}");
         }
     }
 }
