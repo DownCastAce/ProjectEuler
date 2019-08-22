@@ -29,16 +29,15 @@ namespace ProjectEuler
             return result;
         }
         
-        public static long Solve()
+        public static long Solve(int divisorMaximum)
         {
             Stopwatch timer = Stopwatch.StartNew();
-            int divisorMax = 20;
-            int[] primes = GeneratePrimes(divisorMax);
+            int[] primes = GeneratePrimes(divisorMaximum);
             int result = 1;
 
             for (int i = 0; i < primes.Length; i++)
             {
-                int a = (int) Math.Floor(Math.Log(divisorMax) / Math.Log(primes[i]));
+                int a = (int) Math.Floor(Math.Log(divisorMaximum) / Math.Log(primes[i]));
                 result = result * ((int) Math.Pow(primes[i], a));
             }
             timer.Stop();

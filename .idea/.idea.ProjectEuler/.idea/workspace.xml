@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc8548db-e034-49f4-8c75-5975a37b299b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem8.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Problem8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem1Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem2Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem3Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem4Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem5Tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem5.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem6.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem6.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem8.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem8.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEuler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEulerTests/Problem7Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem7Tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEulerTests/ProjectEulerTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEulerTests/ProjectEulerTests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEulerTests/obj/Debug/ProjectEulerTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEulerTests/obj/Debug/ProjectEulerTests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/ProjectEuler.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/ProjectEuler.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/ProjectEuler.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/ProjectEuler.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectEuler.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectEuler.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectEuler.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectEuler.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectEuler.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectEuler.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectEuler.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectEuler.pdb" afterDir="false" />
     </list>
@@ -40,260 +44,84 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <marker date="1565988411765" expanded="true" signature="37:1822" ph="{...}" />
-                <marker date="1565988411765" expanded="true" signature="64:1820" ph="{...}" />
-                <marker date="1565988411765" expanded="true" signature="298:1814" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem8.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding>
-                <marker date="1566251784131" expanded="true" signature="6:55" ph="..." />
-                <marker date="1566251784131" expanded="true" signature="79:2711" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="86:367" ph="/// The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832. ... " />
-                <marker date="1566251784131" expanded="true" signature="393:2709" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="537:2064" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="1763:2018" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="1915:2004" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="2166:2418" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="2292:2380" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="2473:2703" ph="{...}" />
-                <marker date="1566251784131" expanded="true" signature="2605:2665" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding>
-                <marker date="1566251733650" expanded="true" signature="6:42" ph="..." />
-                <marker date="1566251733650" expanded="true" signature="71:335" ph="{...}" />
-                <marker date="1566251733650" expanded="true" signature="122:333" ph="{...}" />
-                <marker date="1566251733650" expanded="true" signature="191:327" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Class1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <marker date="1566249418826" expanded="true" signature="84:212" ph="/* SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED ... */" />
-                <marker date="1566249418826" expanded="true" signature="237:2594" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="374:2563" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="594:2539" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="724:798" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="950:1216" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="1384:1651" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="1818:2085" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="2262:2529" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="2624:2885" ph="{...}" />
-                <marker date="1566249418826" expanded="true" signature="2796:2883" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Problem8.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem7.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-              <folding>
-                <marker date="1565971986094" expanded="true" signature="6:66" ph="..." />
-                <marker date="1565971986094" expanded="true" signature="90:2261" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="97:281" ph="/// By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. ... " />
-                <marker date="1565971986094" expanded="true" signature="307:2259" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="367:1038" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="558:962" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="672:856" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="718:813" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="886:948" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="1092:1719" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="1223:1608" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="1286:1421" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="1459:1594" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="1764:2253" ph="{...}" />
-                <marker date="1565971986094" expanded="true" signature="2042:2218" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectEulerTests/Problem7Tests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <marker date="1566249397943" expanded="true" signature="6:42" ph="..." />
-                <marker date="1566249397943" expanded="true" signature="71:990" ph="{...}" />
-                <marker date="1566249397943" expanded="true" signature="122:988" ph="{...}" />
-                <marker date="1566249397943" expanded="true" signature="191:377" ph="{...}" />
-                <marker date="1566249397943" expanded="true" signature="461:648" ph="{...}" />
-                <marker date="1566249397943" expanded="true" signature="733:982" ph="{...}" />
-                <marker date="1566249397943" expanded="true" signature="867:972" ph="/* Assert.AreEqual(47, Problem7.Solve1(15)); ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem5.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-              <folding>
-                <marker date="1565950655373" expanded="true" signature="6:92" ph="..." />
-                <marker date="1565950655373" expanded="true" signature="116:2340" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="123:376" ph="/// 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. ... " />
-                <marker date="1565950655373" expanded="true" signature="402:2338" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="444:1082" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="595:939" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="1126:1683" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="1357:1537" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="1744:2332" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="1887:2283" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="2001:2185" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="2047:2142" ph="{...}" />
-                <marker date="1565950655373" expanded="true" signature="2215:2269" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem6.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-              <folding>
-                <marker date="1565953877463" expanded="true" signature="6:39" ph="..." />
-                <marker date="1565953877463" expanded="true" signature="63:916" ph="{...}" />
-                <marker date="1565953877463" expanded="true" signature="70:586" ph="/// The sum of the squares of the first ten natural numbers is, ... " />
-                <marker date="1565953877463" expanded="true" signature="619:914" ph="{...}" />
-                <marker date="1565953877463" expanded="true" signature="676:908" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/978BB286-3A1E-4C66-A74B-72341E3A291D/9c/9c13729f/Stopwatch.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/fc/d2de8172/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/51/0870ec01/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/80/5764ba98/WorkItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem7Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.Rider2019.1/config/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/80/5764ba98/WorkItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem2Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem3Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem7.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem4Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem8.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem5Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem6Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem4.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Utilities.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem4.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/80/5764ba98/WorkItem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/e3/826a8a35/Console.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem8.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41214D29-AEF2-49F2-BACE-2A17F5BF98F7/98/6de0ea2c/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem5.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem7.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem1Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Problem2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/fc/d2de8172/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Problem6.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/978BB286-3A1E-4C66-A74B-72341E3A291D/9c/9c13729f/Stopwatch.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Problem3.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/51/0870ec01/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/e3/826a8a35/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41214D29-AEF2-49F2-BACE-2A17F5BF98F7/98/6de0ea2c/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Problem2.cs" />
-        <option value="$PROJECT_DIR$/Problem4.cs" />
         <option value="$PROJECT_DIR$/Probelm5.cs" />
         <option value="$PROJECT_DIR$/Problem3.cs" />
-        <option value="$PROJECT_DIR$/Problem5.cs" />
         <option value="$PROJECT_DIR$/ProblemSolver.cs" />
         <option value="$PROJECT_DIR$/ProjectEulerTests/Tests.cs" />
         <option value="$PROJECT_DIR$/Utilities.cs" />
-        <option value="$PROJECT_DIR$/Problem6.cs" />
-        <option value="$PROJECT_DIR$/Problem1.cs" />
         <option value="$PROJECT_DIR$/Problem7.cs" />
         <option value="$PROJECT_DIR$/Resources/Problem8.xml" />
         <option value="$PROJECT_DIR$/Resources/Problem8.txt" />
         <option value="$PROJECT_DIR$/ProjectEulerTests/Problem6Tests.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
-        <option value="$PROJECT_DIR$/ProjectEulerTests/Problem7Tests.cs" />
         <option value="$PROJECT_DIR$/Class1.cs" />
+        <option value="$PROJECT_DIR$/ProjectEulerTests/Problem7Tests.cs" />
+        <option value="$PROJECT_DIR$/ProjectEulerTests/Problem1Tests.cs" />
+        <option value="$PROJECT_DIR$/Problem6.cs" />
         <option value="$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs" />
+        <option value="$PROJECT_DIR$/Problem1.cs" />
         <option value="$PROJECT_DIR$/Problem8.cs" />
+        <option value="$PROJECT_DIR$/ProjectEulerTests/Problem2Tests.cs" />
+        <option value="$PROJECT_DIR$/ProjectEulerTests/Problem3Tests.cs" />
+        <option value="$PROJECT_DIR$/Problem4.cs" />
+        <option value="$PROJECT_DIR$/ProjectEulerTests/Problem4Tests.cs" />
+        <option value="$PROJECT_DIR$/Problem5.cs" />
+        <option value="$PROJECT_DIR$/ProjectEulerTests/Problem5Tests.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.ProjectEuler/.idea/projectSettingsUpdater.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="158" />
+    <option name="y" value="364" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectEuler" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ProjectEulerTests" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1Pmyotp9JqgYIO0smWE2bPYUq0W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -305,7 +133,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="." />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,7 +188,9 @@
       <workItem from="1565907742530" duration="6570000" />
       <workItem from="1565947180676" duration="13304000" />
       <workItem from="1565973309291" duration="10240000" />
-      <workItem from="1566249241745" duration="2541000" />
+      <workItem from="1566249241745" duration="2963000" />
+      <workItem from="1566323273454" duration="4241000" />
+      <workItem from="1566493750661" duration="6459000" />
     </task>
     <task id="LOCAL-00001" summary="Problems 1-3 for Project Euler">
       <created>1565897893436</created>
@@ -391,51 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1565972065842</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Problems 1-7 for Project Euler&#10;Logic to solve Problem7&#10;Added Problem7 Unit tests">
+      <created>1566251845548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566251845549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44451000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26318595" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32977587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49973363" weight="0.32977587" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" order="12" visible="true" weight="0.32977587" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5002664" side_tool="true" weight="0.32977587" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32977587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32978156" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32978156" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.32978156" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -458,20 +258,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -493,10 +280,25 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Problems 1-3 for Project Euler" />
     <MESSAGE value="Problems 1-6 for Project Euler&#10;Added Problem6 Unit tests" />
     <MESSAGE value="Problems 1-7 for Project Euler&#10;Logic to solve Problem7&#10;Added Problem7 Unit tests" />
     <option name="LAST_COMMIT_MESSAGE" value="Problems 1-7 for Project Euler&#10;Logic to solve Problem7&#10;Added Problem7 Unit tests" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.1080/1920.1080" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.1080/1920.1080" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.1080/1920.1080" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.1080/1920.1080" />
+    <state x="449" y="71" key="SettingsEditor" />
+    <state x="449" y="71" key="SettingsEditor/1920.1080/1920.1080" />
+    <state x="616" y="240" key="run.anything.popup" />
+    <state x="616" y="240" key="run.anything.popup/1920.1080/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,27 +334,14 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Class1.cs</url>
-          <line>18</line>
-          <properties documentPath="$PROJECT_DIR$/Class1.cs" initialLine="18">
-            <startOffsets>
-              <option value="682" />
-            </startOffsets>
-            <endOffsets>
-              <option value="724" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Problem8.cs</url>
-          <line>16</line>
+          <line>15</line>
           <properties documentPath="$PROJECT_DIR$/Problem8.cs" initialLine="35">
             <startOffsets>
-              <option value="1595" />
+              <option value="1511" />
             </startOffsets>
             <endOffsets>
-              <option value="1664" />
+              <option value="1580" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="36" />
@@ -603,974 +392,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/e3/826a8a35/Console.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1541" column="6" selection-start-line="1541" selection-start-column="6" selection-end-line="1541" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem2.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding>
-            <marker date="1565895979986" expanded="true" signature="22:1072" ph="{...}" />
-            <marker date="1565895979986" expanded="true" signature="29:440" ph="/// Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and ... " />
-            <marker date="1565895979986" expanded="true" signature="473:1070" ph="{...}" />
-            <marker date="1565895979986" expanded="true" signature="527:1064" ph="{...}" />
-            <marker date="1565895979986" expanded="true" signature="744:1014" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41214D29-AEF2-49F2-BACE-2A17F5BF98F7/98/6de0ea2c/Enumerable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="3362" column="6" selection-start-line="3362" selection-start-column="6" selection-end-line="3362" selection-end-column="6" />
-          <folding>
-            <marker date="1565911142567" expanded="true" signature="0:333" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1565911142567" expanded="false" signature="341:418" ph="..." />
-            <marker date="1565911142567" expanded="true" signature="441:260349" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="719:260347" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="728:1430" ph="///Filters a sequence of values based on a predicate. ... " />
-            <marker date="1565911142567" expanded="true" signature="1591:2285" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="2291:3150" ph="///Filters a sequence of values based on a predicate. Each element's index is used in the logic of the predicate  ... " />
-            <marker date="1565911142567" expanded="true" signature="3316:3555" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="3697:3889" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="3767:3883" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="3895:4726" ph="///Projects each element of a sequence into a new form. ... " />
-            <marker date="1565911142567" expanded="true" signature="4899:5726" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="5732:6688" ph="///Projects each element of a sequence into a new form by incorporating the element's index. ... " />
-            <marker date="1565911142567" expanded="true" signature="6866:7112" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="7266:7434" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="7336:7428" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="7578:7730" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="7632:7722" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="7898:7980" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="7986:8920" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt; and flatte ... " />
-            <marker date="1565911142567" expanded="true" signature="9110:9360" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="9526:9681" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="9574:9675" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="9687:10789" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;, and flatt ... " />
-            <marker date="1565911142567" expanded="true" signature="10984:11234" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="11405:11618" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="11475:11612" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="11624:13244" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;, flattens  ... " />
-            <marker date="1565911142567" expanded="true" signature="13524:13926" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="14182:14514" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="14252:14508" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="14520:15981" ph="///Projects each element of a sequence to an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;, flattens  ... " />
-            <marker date="1565911142567" expanded="true" signature="16256:16658" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="16909:17183" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="16957:17177" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="17189:17844" ph="///Returns a specified number of contiguous elements from the start of a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="17984:18135" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="18251:18443" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="18278:18437" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="18330:18429" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="18449:19181" ph="///Returns elements from a sequence as long as a specified condition is true. ... " />
-            <marker date="1565911142567" expanded="true" signature="19346:19589" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="19730:19894" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="19778:19888" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="19900:20786" ph="///Returns elements from a sequence as long as a specified condition is true. The element's index is used in the  ... " />
-            <marker date="1565911142567" expanded="true" signature="20956:21199" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="21345:21567" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="21415:21561" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="21573:22331" ph="///Bypasses a specified number of elements in a sequence and then returns the remaining elements. ... " />
-            <marker date="1565911142567" expanded="true" signature="22471:22622" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="22738:23000" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="22813:22994" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="22899:22986" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="23006:23884" ph="///Bypasses elements in a sequence as long as a specified condition is true and then returns the remaining elemen ... " />
-            <marker date="1565911142567" expanded="true" signature="24049:24292" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="24433:24659" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="24510:24653" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="24665:25699" ph="///Bypasses elements in a sequence as long as a specified condition is true and then returns the remaining elemen ... " />
-            <marker date="1565911142567" expanded="true" signature="25869:26112" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="26258:26542" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="26357:26536" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="26548:28047" ph="///Correlates the elements of two sequences based on matching keys. The default equality comparer is used to comp ... " />
-            <marker date="1565911142567" expanded="true" signature="28361:28977" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="28983:30660" ph="///Correlates the elements of two sequences based on matching keys. A specified &lt;see cref=&quot;T:System.Collections.G ... " />
-            <marker date="1565911142567" expanded="true" signature="31014:31608" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="31938:32467" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="32090:32461" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="32244:32370" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="32473:34080" ph="///Correlates the elements of two sequences based on equality of keys and groups the results. The default equalit ... " />
-            <marker date="1565911142567" expanded="true" signature="34412:35033" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="35039:36820" ph="///Correlates the elements of two sequences based on key equality and groups the results. A specified &lt;see cref=&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="37192:37791" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="38139:38376" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="38382:39135" ph="///Sorts the elements of a sequence in ascending order according to a key. ... " />
-            <marker date="1565911142567" expanded="true" signature="39313:39458" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="39464:40343" ph="///Sorts the elements of a sequence in ascending order by using a specified comparer. ... " />
-            <marker date="1565911142567" expanded="true" signature="40553:40684" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="40690:41464" ph="///Sorts the elements of a sequence in descending order according to a key. ... " />
-            <marker date="1565911142567" expanded="true" signature="41652:41796" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="41802:42702" ph="///Sorts the elements of a sequence in descending order by using a specified comparer. ... " />
-            <marker date="1565911142567" expanded="true" signature="42922:43052" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="43058:43895" ph="///Performs a subsequent ordering of the elements in a sequence in ascending order according to a key. ... " />
-            <marker date="1565911142567" expanded="true" signature="44079:44263" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="44269:45232" ph="///Performs a subsequent ordering of the elements in a sequence in ascending order by using a specified comparer. ... " />
-            <marker date="1565911142567" expanded="true" signature="45448:45618" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="45624:46483" ph="///Performs a subsequent ordering of the elements in a sequence in descending order, according to a key. ... " />
-            <marker date="1565911142567" expanded="true" signature="46677:46860" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="46866:47850" ph="///Performs a subsequent ordering of the elements in a sequence in descending order by using a specified comparer ... " />
-            <marker date="1565911142567" expanded="true" signature="48076:48245" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="48251:49196" ph="///Groups the elements of a sequence according to a specified key selector function. ... " />
-            <marker date="1565911142567" expanded="true" signature="49384:49585" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="49591:50713" ph="///Groups the elements of a sequence according to a specified key selector function and compares the keys by usin ... " />
-            <marker date="1565911142567" expanded="true" signature="50941:51120" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="51126:52490" ph="///Groups the elements of a sequence according to a specified key selector function and projects the elements for ... " />
-            <marker date="1565911142567" expanded="true" signature="52736:52920" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="52926:54444" ph="///Groups the elements of a sequence according to a key selector function. The keys are compared by using a compa ... " />
-            <marker date="1565911142567" expanded="true" signature="54730:54892" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="54898:55858" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
-            <marker date="1565911142567" expanded="true" signature="56102:56311" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="56317:57617" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
-            <marker date="1565911142567" expanded="true" signature="57919:58110" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="58116:59257" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
-            <marker date="1565911142567" expanded="true" signature="59541:59728" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="59734:61221" ph="///Groups the elements of a sequence according to a specified key selector function and creates a result value fr ... " />
-            <marker date="1565911142567" expanded="true" signature="61563:61732" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="61738:62360" ph="///Concatenates two sequences. ... " />
-            <marker date="1565911142567" expanded="true" signature="62519:62747" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="62882:63033" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="63039:64027" ph="///Applies a specified function to the corresponding elements of two sequences, producing a sequence of the resul ... " />
-            <marker date="1565911142567" expanded="true" signature="64252:64603" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="64804:65092" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="64878:65086" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="64953:65078" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="65098:65686" ph="///Returns distinct elements from a sequence by using the default equality comparer to compare values. ... " />
-            <marker date="1565911142567" expanded="true" signature="65806:65989" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="65995:66754" ph="///Returns distinct elements from a sequence by using a specified &lt;see cref=&quot;T:System.Collections.Generic.IEquali ... " />
-            <marker date="1565911142567" expanded="true" signature="66924:67082" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="67228:67413" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="67329:67407" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="67419:68254" ph="///Produces the set union of two sequences by using the default equality comparer. ... " />
-            <marker date="1565911142567" expanded="true" signature="68412:68674" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="68680:69687" ph="///Produces the set union of two sequences by using a specified &lt;see cref=&quot;T:System.Collections.Generic.IEquality ... " />
-            <marker date="1565911142567" expanded="true" signature="69888:70125" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="70302:70600" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="70401:70477" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="70518:70594" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="70606:71469" ph="///Produces the set intersection of two sequences by using the default equality comparer to compare values. ... " />
-            <marker date="1565911142567" expanded="true" signature="71631:71897" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="71903:72939" ph="///Produces the set intersection of two sequences by using the specified &lt;see cref=&quot;T:System.Collections.Generic. ... " />
-            <marker date="1565911142567" expanded="true" signature="73144:73385" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="73566:73816" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="73731:73810" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="73822:74706" ph="///Produces the set difference of two sequences by using the default equality comparer to compare values. ... " />
-            <marker date="1565911142567" expanded="true" signature="74865:75128" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="75134:76191" ph="///Produces the set difference of two sequences by using the specified &lt;see cref=&quot;T:System.Collections.Generic.IE ... " />
-            <marker date="1565911142567" expanded="true" signature="76393:76631" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="76809:77056" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="76974:77050" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="77062:77551" ph="///Inverts the order of the elements in a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="77670:77817" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="77919:78079" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="78085:79006" ph="///Determines whether two sequences are equal by comparing the elements by using the default equality comparer fo ... " />
-            <marker date="1565911142567" expanded="true" signature="79156:79254" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="79260:80336" ph="///Determines whether two sequences are equal by comparing their elements by using a specified &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="80529:81264" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="80876:81239" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="80960:81231" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="81002:81157" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="81270:81714" ph="///Returns the input typed as &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;. ... " />
-            <marker date="1565911142567" expanded="true" signature="81845:81878" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="81884:82435" ph="///Creates an array from a &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt;. ... " />
-            <marker date="1565911142567" expanded="true" signature="82543:82684" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="82690:83371" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.I ... " />
-            <marker date="1565911142567" expanded="true" signature="83482:83611" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="83617:84817" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
-            <marker date="1565911142567" expanded="true" signature="84998:85149" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="85155:86496" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
-            <marker date="1565911142567" expanded="true" signature="86717:86846" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="86852:88410" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
-            <marker date="1565911142567" expanded="true" signature="88649:88782" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="88788:90495" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.Dictionary`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Gen ... " />
-            <marker date="1565911142567" expanded="true" signature="90774:91272" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="91278:92182" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="92356:92534" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="92540:93584" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="93798:93954" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="93960:95222" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="95454:95615" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="95621:97031" ph="///Creates a &lt;see cref=&quot;T:System.Linq.Lookup`2&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="97303:97442" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="97448:98047" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.HashSet`1&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generi ... " />
-            <marker date="1565911142567" expanded="true" signature="98135:98222" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="98228:99003" ph="///Creates a &lt;see cref=&quot;T:System.Collections.Generic.HashSet`1&quot; /&gt; from an &lt;see cref=&quot;T:System.Collections.Generi ... " />
-            <marker date="1565911142567" expanded="true" signature="99141:99283" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="99289:100026" ph="///Returns the elements of the specified sequence or the type parameter's default value in a singleton collection ... " />
-            <marker date="1565911142567" expanded="true" signature="100159:100235" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="100241:100890" ph="///Returns the elements of the specified sequence or the specified value in a singleton collection if the sequenc ... " />
-            <marker date="1565911142567" expanded="true" signature="101051:101219" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="101356:101647" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="101431:101641" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="101458:101583" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="101653:102295" ph="///Filters the elements of an &lt;see cref=&quot;T:System.Collections.IEnumerable&quot; /&gt; based on a specified type. ... " />
-            <marker date="1565911142567" expanded="true" signature="102404:102550" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="102635:102766" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="102678:102760" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="102772:103610" ph="///Casts the elements of an &lt;see cref=&quot;T:System.Collections.IEnumerable&quot; /&gt; to the specified type. ... " />
-            <marker date="1565911142567" expanded="true" signature="103717:103981" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="104064:104146" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="104152:104756" ph="///Returns the first element of a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="104860:105349" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="105033:105115" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="105126:105311" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="105216:105303" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="105355:106231" ph="///Returns the first element in a sequence that satisfies a specified condition. ... " />
-            <marker date="1565911142567" expanded="true" signature="106379:106696" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="106587:106661" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="106702:107380" ph="///Returns the first element of a sequence, or a default value if the sequence contains no elements. ... " />
-            <marker date="1565911142567" expanded="true" signature="107493:107982" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="107666:107748" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="107759:107944" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="107849:107936" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="107988:108941" ph="///Returns the first element of the sequence that satisfies a condition or a default value if no such element is  ... " />
-            <marker date="1565911142567" expanded="true" signature="109098:109418" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="109306:109380" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="109424:110035" ph="///Returns the last element of a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="110138:110834" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="110311:110428" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="110439:110796" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="110529:110788" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="110567:110778" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="110840:111714" ph="///Returns the last element of a sequence that satisfies a specified condition. ... " />
-            <marker date="1565911142567" expanded="true" signature="111861:112332" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="112137:112257" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="112177:112249" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="112338:113040" ph="///Returns the last element of a sequence, or a default value if the sequence contains no elements. ... " />
-            <marker date="1565911142567" expanded="true" signature="113152:113848" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="113325:113442" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="113453:113810" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="113543:113802" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="113581:113792" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="113854:114724" ph="///Returns the last element of a sequence that satisfies a condition or a default value if no such element is fou ... " />
-            <marker date="1565911142567" expanded="true" signature="114880:115236" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="115131:115208" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="115242:115972" ph="///Returns the only element of a sequence, and throws an exception if there is not exactly one element in the seq ... " />
-            <marker date="1565911142567" expanded="true" signature="116077:116784" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="116250:116428" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="116292:116420" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="116439:116738" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="116529:116730" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="116790:117791" ph="///Returns the only element of a sequence that satisfies a specified condition, and throws an exception if more t ... " />
-            <marker date="1565911142567" expanded="true" signature="117940:118478" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="118211:118337" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="118251:118329" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="118484:119330" ph="///Returns the only element of a sequence, or a default value if the sequence is empty; this method throws an exc ... " />
-            <marker date="1565911142567" expanded="true" signature="119444:120151" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="119617:119795" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="119659:119787" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="119806:120105" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="119896:120097" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="120157:121055" ph="///Returns the only element of a sequence that satisfies a specified condition or a default value if no such elem ... " />
-            <marker date="1565911142567" expanded="true" signature="121213:121754" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="121484:121610" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="121524:121602" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="121760:122579" ph="///Returns the element at a specified index in a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="122698:123273" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="123060:123267" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="123099:123203" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="123279:124074" ph="///Returns the element at a specified index in a sequence or a default value if the index is out of range. ... " />
-            <marker date="1565911142567" expanded="true" signature="124202:124735" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="124307:124697" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="124409:124507" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="124520:124689" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="124576:124679" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="124741:125403" ph="///Generates a sequence of integral numbers within a specified range. ... " />
-            <marker date="1565911142567" expanded="true" signature="125495:125717" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="125790:125872" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="125878:126475" ph="///Generates a sequence that contains one repeated value. ... " />
-            <marker date="1565911142567" expanded="true" signature="126587:126741" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="126847:126927" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="126933:127384" ph="///Returns an empty &lt;see cref=&quot;T:System.Collections.Generic.IEnumerable`1&quot; /&gt; that has the specified type argumen ... " />
-            <marker date="1565911142567" expanded="true" signature="127469:127552" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="127558:128134" ph="///Determines whether a sequence contains any elements. ... " />
-            <marker date="1565911142567" expanded="true" signature="128233:128487" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="128394:128461" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="128493:129258" ph="///Determines whether any element of a sequence satisfies a condition. ... " />
-            <marker date="1565911142567" expanded="true" signature="129388:129693" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="129596:129667" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="129699:130507" ph="///Determines whether all elements of a sequence satisfy a condition. ... " />
-            <marker date="1565911142567" expanded="true" signature="130637:130943" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="130845:130918" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="130949:131584" ph="///Returns the number of elements in a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="131684:132207" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="132107:132183" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="132213:133095" ph="///Returns a number that represents how many elements in the specified sequence satisfy a condition. ... " />
-            <marker date="1565911142567" expanded="true" signature="133239:133567" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="133466:133543" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="133573:134281" ph="///Returns an &lt;see cref=&quot;T:System.Int64&quot; /&gt; that represents the total number of elements in a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="134386:134667" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="134567:134643" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="134673:135582" ph="///Returns an &lt;see cref=&quot;T:System.Int64&quot; /&gt; that represents how many elements in a sequence satisfy a condition. ... " />
-            <marker date="1565911142567" expanded="true" signature="135731:136060" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="135959:136036" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="136066:136741" ph="///Determines whether a sequence contains a specified element by using the default equality comparer. ... " />
-            <marker date="1565911142567" expanded="true" signature="136860:137089" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="137095:137895" ph="///Determines whether a sequence contains a specified element by using a specified &lt;see cref=&quot;T:System.Collection ... " />
-            <marker date="1565911142567" expanded="true" signature="138070:138404" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="138300:138378" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="138410:139138" ph="///Applies an accumulator function over a sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="139297:139781" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="139531:139775" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="139787:140602" ph="///Applies an accumulator function over a sequence. The specified seed value is used as the initial accumulator v ... " />
-            <marker date="1565911142567" expanded="true" signature="140810:141124" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="141130:142257" ph="///Applies an accumulator function over a sequence. The specified seed value is used as the initial accumulator v ... " />
-            <marker date="1565911142567" expanded="true" signature="142519:142942" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="142948:143482" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="143567:143764" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="143770:144322" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="144409:144691" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="144551:144657" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="144697:145231" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="145318:145517" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="145523:146075" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="146164:146449" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="146308:146414" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="146455:146863" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="146952:147161" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="147167:147593" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="147684:147980" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="147833:147936" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="147986:148394" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="148485:148678" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="148684:149110" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="149203:149484" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="149353:149447" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="149490:150030" ph="///Computes the sum of a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="150123:150328" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="150334:150892" ph="///Computes the sum of a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="150987:151281" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="151149:151243" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="151287:152105" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invoking a trans ... " />
-            <marker date="1565911142567" expanded="true" signature="152232:152302" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="152308:153135" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invokin ... " />
-            <marker date="1565911142567" expanded="true" signature="153264:153335" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="153341:154159" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invoking a trans ... " />
-            <marker date="1565911142567" expanded="true" signature="154288:154359" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="154365:155192" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invokin ... " />
-            <marker date="1565911142567" expanded="true" signature="155336:155408" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="155414:156105" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invoking a tran ... " />
-            <marker date="1565911142567" expanded="true" signature="156249:156321" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="156327:157027" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invoki ... " />
-            <marker date="1565911142567" expanded="true" signature="157173:157246" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="157252:157943" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invoking a tran ... " />
-            <marker date="1565911142567" expanded="true" signature="158089:158162" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="158168:158868" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invoki ... " />
-            <marker date="1565911142567" expanded="true" signature="159016:159090" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="159096:159918" ph="///Computes the sum of the sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by invoking a tra ... " />
-            <marker date="1565911142567" expanded="true" signature="160066:160140" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="160146:160977" ph="///Computes the sum of the sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by invok ... " />
-            <marker date="1565911142567" expanded="true" signature="161127:161202" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="161208:161760" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="161845:162268" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="162008:162193" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="162034:162106" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="162119:162185" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="162274:162815" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="162902:163428" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="163061:163398" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="163101:163359" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="163434:163986" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="164073:164498" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="164238:164423" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="164264:164336" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="164349:164415" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="164504:165045" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="165134:165665" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="165296:165635" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="165336:165596" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="165671:166225" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="166314:166763" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="166480:166689" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="166506:166606" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="166619:166681" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="166769:167314" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="167405:168060" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="167570:168030" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="167610:168022" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="167654:167979" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="168066:168620" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="168711:169144" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="168878:169070" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="168904:168987" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="169000:169062" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="169150:169695" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="169788:170431" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="169956:170401" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="169996:170393" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="170040:170350" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="170437:170993" ph="///Returns the minimum value in a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="171086:171529" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="171269:171454" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="171295:171367" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="171380:171446" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="171535:172084" ph="///Returns the minimum value in a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="172179:172725" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="172350:172695" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="172390:172656" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="172731:173192" ph="///Returns the minimum value in a generic sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="173294:174026" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="173506:173705" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="173552:173679" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="173766:173954" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="173792:173873" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="173886:173946" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="174032:174813" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Int32&quot;  ... " />
-            <marker date="1565911142567" expanded="true" signature="174940:175010" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="175016:175779" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="175908:175979" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="175985:176766" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Int64&quot;  ... " />
-            <marker date="1565911142567" expanded="true" signature="176895:176966" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="176972:177735" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="177879:177951" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="177957:178739" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Single&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="178883:178955" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="178961:179727" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="179873:179946" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="179952:180734" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Double&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="180880:180953" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="180959:181725" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="181873:181947" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="181953:182736" ph="///Invokes a transform function on each element of a sequence and returns the minimum &lt;see cref=&quot;T:System.Decimal ... " />
-            <marker date="1565911142567" expanded="true" signature="182884:182958" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="182964:183733" ph="///Invokes a transform function on each element of a sequence and returns the minimum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="183883:183958" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="183964:184712" ph="///Invokes a transform function on each element of a generic sequence and returns the minimum resulting value. ... " />
-            <marker date="1565911142567" expanded="true" signature="184869:184952" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="184958:185510" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="185595:186018" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="185758:185943" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="185784:185856" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="185869:185935" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="186024:186566" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="186653:187179" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="186812:187149" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="186852:187110" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="187185:187737" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="187824:188249" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="187989:188174" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="188015:188087" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="188100:188166" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="188255:188797" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="188886:189417" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="189048:189387" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="189088:189348" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="189423:189977" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="190068:190499" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="190235:190427" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="190261:190344" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="190357:190419" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="190505:191050" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="191143:191786" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="191311:191756" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="191351:191748" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="191395:191705" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="191792:192346" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="192435:192914" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="192605:192839" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="192631:192752" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="192765:192831" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="192920:193465" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="193556:194211" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="193721:194181" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="193761:194173" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="193805:194130" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="194217:194773" ph="///Returns the maximum value in a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="194866:195309" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="195049:195234" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="195075:195147" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="195160:195226" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="195315:195865" ph="///Returns the maximum value in a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="195960:196506" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="196131:196476" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="196171:196437" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="196512:196973" ph="///Returns the maximum value in a generic sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="197075:197807" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="197287:197486" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="197333:197460" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="197547:197735" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="197573:197654" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="197667:197727" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="197813:198594" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Int32&quot;  ... " />
-            <marker date="1565911142567" expanded="true" signature="198721:198791" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="198797:199560" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="199689:199760" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="199766:200547" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Int64&quot;  ... " />
-            <marker date="1565911142567" expanded="true" signature="200676:200747" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="200753:201516" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="201660:201732" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="201738:202520" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Single&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="202664:202736" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="202742:203508" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="203654:203727" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="203733:204515" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Double&quot; ... " />
-            <marker date="1565911142567" expanded="true" signature="204661:204734" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="204740:205506" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="205654:205728" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="205734:206517" ph="///Invokes a transform function on each element of a sequence and returns the maximum &lt;see cref=&quot;T:System.Decimal ... " />
-            <marker date="1565911142567" expanded="true" signature="206665:206739" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="206745:207514" ph="///Invokes a transform function on each element of a sequence and returns the maximum nullable &lt;see cref=&quot;T:Syste ... " />
-            <marker date="1565911142567" expanded="true" signature="207664:207739" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="207745:208493" ph="///Invokes a transform function on each element of a generic sequence and returns the maximum resulting value. ... " />
-            <marker date="1565911142567" expanded="true" signature="208650:208733" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="208739:209284" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="209376:209726" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="209536:209621" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="209732:210441" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="210535:210978" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="210700:210864" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="210739:210856" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="210984:211529" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="211622:211966" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="211783:211861" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="211972:212681" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="212776:213213" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="212942:213099" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="212981:213091" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="213219:213766" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="213859:214203" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="214025:214100" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="214209:214760" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="214855:215290" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="215026:215180" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="215065:215172" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="215296:215843" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="215938:216267" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="216105:216171" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="216273:216824" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="216921:217343" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="217093:217238" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="217132:217230" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="217349:217898" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="217995:218337" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="218174:218240" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="218343:219058" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values. ... " />
-            <marker date="1565911142567" expanded="true" signature="219157:219594" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="219341:219486" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="219380:219478" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="219600:220584" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invoking a tra ... " />
-            <marker date="1565911142567" expanded="true" signature="220731:220805" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="220811:221790" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int32&quot; /&gt; values that are obtained by invok ... " />
-            <marker date="1565911142567" expanded="true" signature="221939:222014" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="222020:222984" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invoking a tra ... " />
-            <marker date="1565911142567" expanded="true" signature="223132:223207" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="223213:223867" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Int64&quot; /&gt; values that are obtained by invok ... " />
-            <marker date="1565911142567" expanded="true" signature="224017:224093" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="224099:224924" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invoking a tr ... " />
-            <marker date="1565911142567" expanded="true" signature="225072:225148" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="225154:225974" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Single&quot; /&gt; values that are obtained by invo ... " />
-            <marker date="1565911142567" expanded="true" signature="226124:226201" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="226207:227032" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invoking a tr ... " />
-            <marker date="1565911142567" expanded="true" signature="227182:227259" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="227265:228085" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Double&quot; /&gt; values that are obtained by invo ... " />
-            <marker date="1565911142567" expanded="true" signature="228237:228315" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="228321:229319" ph="///Computes the average of a sequence of &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by invoking a t ... " />
-            <marker date="1565911142567" expanded="true" signature="229471:229549" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="229555:230538" ph="///Computes the average of a sequence of nullable &lt;see cref=&quot;T:System.Decimal&quot; /&gt; values that are obtained by inv ... " />
-            <marker date="1565911142567" expanded="true" signature="230692:230771" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="230777:231314" ph="///Appends a value to the end of the sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="231433:231872" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="231878:232422" ph="///Adds a value to the beginning of the sequence. ... " />
-            <marker date="1565911142567" expanded="true" signature="232542:232983" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="233113:234541" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="233230:233308" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="233338:233417" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="233358:233409" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="233515:233598" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="233649:233981" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="233743:233835" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="234240:234328" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="234260:234320" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="234375:234442" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="234474:234535" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="234624:236476" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="234863:234945" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="235005:235145" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="235183:235352" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="235391:235948" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="235427:235918" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="235632:235861" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="235746:235847" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="236050:236207" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="236288:236470" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="236554:237977" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="236744:236826" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="236886:237021" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="237060:237459" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="237097:237429" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="237157:237393" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="237289:237381" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="237561:237713" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="237794:237971" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="238054:239665" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="238277:238359" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="238419:238553" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="238592:239149" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="238628:239119" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="238833:239062" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="238947:239048" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="239251:239402" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="239483:239659" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="239818:242473" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="240083:240165" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="240225:240376" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="240414:240608" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="240460:240576" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="240647:241101" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="240683:241071" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="240888:241014" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="241206:241418" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="241499:241642" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="241676:241935" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="241972:242170" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="242215:242467" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="242339:242439" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="242571:244677" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="242921:243037" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="243097:243267" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="243305:243474" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="243513:244111" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="243549:244081" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="243754:244024" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="243894:244010" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="244216:244447" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="244528:244671" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="244770:246452" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="245071:245187" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="245247:245412" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="245451:245891" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="245488:245861" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="245548:245825" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="245706:245813" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="245996:246222" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="246303:246446" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="246544:248415" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="246878:246994" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="247054:247218" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="247257:247855" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="247293:247825" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="247498:247768" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="247638:247754" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="247960:248185" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="248266:248409" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="248565:250178" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="248743:248790" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="248834:248906" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="249124:249319" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="249172:249265" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="249357:249548" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="249402:249516" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="249650:249802" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="249883:250026" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="250273:254405" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="250476:250556" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="250616:250769" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="250808:251466" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="250844:251412" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="250934:251030" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="251287:251383" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="251552:252004" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="252091:252543" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="252582:252942" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="252985:253525" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="253195:253241" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="253254:253333" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="253571:253930" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="253984:254399" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="254102:254252" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="254492:260343" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="254979:255151" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="255211:255399" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="255438:256334" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="255474:256326" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="255651:255798" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="256420:256698" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="256785:257064" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="257103:257978" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="258021:259093" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="258351:258448" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="258554:258619" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="258632:258795" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="258694:258785" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="258974:259063" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="259139:259794" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="259558:259759" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="259848:260337" ph="{...}" />
-            <marker date="1565911142567" expanded="true" signature="259966:260153" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem4.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <marker date="1565914638633" expanded="true" signature="6:66" ph="..." />
-            <marker date="1565914638633" expanded="true" signature="90:2414" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="97:353" ph="/// A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit nu ... " />
-            <marker date="1565914638633" expanded="true" signature="386:2412" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="427:1306" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="569:1245" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="616:709" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="730:824" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="856:1190" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="926:1001" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="1047:1142" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="1365:1952" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="1468:1908" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="1527:1894" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="1755:1876" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="2020:2165" ph="{...}" />
-            <marker date="1565914638633" expanded="true" signature="2242:2406" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem3.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <marker date="1565949791066" expanded="true" signature="37:695" ph="{...}" />
-            <marker date="1565949791066" expanded="true" signature="44:246" ph="/// The prime factors of 13195 are 5, 7, 13 and 29. ... " />
-            <marker date="1565949791066" expanded="true" signature="279:693" ph="{...}" />
-            <marker date="1565949791066" expanded="true" signature="330:687" ph="{...}" />
-            <marker date="1565949791066" expanded="true" signature="413:596" ph="{...}" />
-            <marker date="1565949791066" expanded="true" signature="469:582" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProblemSolver.cs" />
-    <entry file="file://$PROJECT_DIR$/ProjectEulerTests/Tests.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/978BB286-3A1E-4C66-A74B-72341E3A291D/9c/9c13729f/Stopwatch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1565953581985" expanded="true" signature="37:370" ph="{...}" />
-            <marker date="1565953581985" expanded="true" signature="73:368" ph="{...}" />
-            <marker date="1565953581985" expanded="true" signature="130:212" ph="{...}" />
-            <marker date="1565953581985" expanded="true" signature="266:362" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
-          <folding>
-            <marker date="1565953969415" expanded="true" signature="6:39" ph="..." />
-            <marker date="1565953969415" expanded="true" signature="63:1373" ph="{...}" />
-            <marker date="1565953969415" expanded="true" signature="70:347" ph="/// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of th ... " />
-            <marker date="1565953969415" expanded="true" signature="380:1371" ph="{...}" />
-            <marker date="1565953969415" expanded="true" signature="462:736" ph="{...}" />
-            <marker date="1565953969415" expanded="true" signature="562:702" ph="{...}" />
-            <marker date="1565953969415" expanded="true" signature="622:688" ph="{...}" />
-            <marker date="1565953969415" expanded="true" signature="821:1365" ph="{...}" />
-            <marker date="1565953969415" expanded="true" signature="1136:1297" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/fc/d2de8172/ThrowHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/51/0870ec01/List`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Problem8.xml" />
-    <entry file="file://$PROJECT_DIR$/ProjectEulerTests/Problem6Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <marker date="1565953808745" expanded="true" signature="6:42" ph="..." />
-            <marker date="1565953808745" expanded="true" signature="71:748" ph="{...}" />
-            <marker date="1565953808745" expanded="true" signature="122:746" ph="{...}" />
-            <marker date="1565953808745" expanded="true" signature="187:329" ph="{...}" />
-            <marker date="1565953808745" expanded="true" signature="400:548" ph="{...}" />
-            <marker date="1565953808745" expanded="true" signature="612:740" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/80/5764ba98/WorkItem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <marker date="1565988411765" expanded="true" signature="37:1822" ph="{...}" />
-            <marker date="1565988411765" expanded="true" signature="64:1820" ph="{...}" />
-            <marker date="1565988411765" expanded="true" signature="298:1814" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Problem8.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem7.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <marker date="1565971986094" expanded="true" signature="6:66" ph="..." />
-            <marker date="1565971986094" expanded="true" signature="90:2261" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="97:281" ph="/// By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. ... " />
-            <marker date="1565971986094" expanded="true" signature="307:2259" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="367:1038" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="558:962" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="672:856" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="718:813" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="886:948" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="1092:1719" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="1223:1608" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="1286:1421" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="1459:1594" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="1764:2253" ph="{...}" />
-            <marker date="1565971986094" expanded="true" signature="2042:2218" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem5.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <marker date="1565950655373" expanded="true" signature="6:92" ph="..." />
-            <marker date="1565950655373" expanded="true" signature="116:2340" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="123:376" ph="/// 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. ... " />
-            <marker date="1565950655373" expanded="true" signature="402:2338" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="444:1082" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="595:939" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="1126:1683" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="1357:1537" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="1744:2332" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="1887:2283" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="2001:2185" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="2047:2142" ph="{...}" />
-            <marker date="1565950655373" expanded="true" signature="2215:2269" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem6.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <marker date="1565953877463" expanded="true" signature="6:39" ph="..." />
-            <marker date="1565953877463" expanded="true" signature="63:916" ph="{...}" />
-            <marker date="1565953877463" expanded="true" signature="70:586" ph="/// The sum of the squares of the first ten natural numbers is, ... " />
-            <marker date="1565953877463" expanded="true" signature="619:914" ph="{...}" />
-            <marker date="1565953877463" expanded="true" signature="676:908" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1566249418826" expanded="true" signature="84:212" ph="/* SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED ... */" />
-            <marker date="1566249418826" expanded="true" signature="237:2594" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="374:2563" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="594:2539" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="724:798" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="950:1216" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="1384:1651" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="1818:2085" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="2262:2529" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="2624:2885" ph="{...}" />
-            <marker date="1566249418826" expanded="true" signature="2796:2883" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectEulerTests/Problem7Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <marker date="1566249397943" expanded="true" signature="6:42" ph="..." />
-            <marker date="1566249397943" expanded="true" signature="71:990" ph="{...}" />
-            <marker date="1566249397943" expanded="true" signature="122:988" ph="{...}" />
-            <marker date="1566249397943" expanded="true" signature="191:377" ph="{...}" />
-            <marker date="1566249397943" expanded="true" signature="461:648" ph="{...}" />
-            <marker date="1566249397943" expanded="true" signature="733:982" ph="{...}" />
-            <marker date="1566249397943" expanded="true" signature="867:972" ph="/* Assert.AreEqual(47, Problem7.Solve1(15)); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectEulerTests/Problem8Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <marker date="1566251733650" expanded="true" signature="6:42" ph="..." />
-            <marker date="1566251733650" expanded="true" signature="71:335" ph="{...}" />
-            <marker date="1566251733650" expanded="true" signature="122:333" ph="{...}" />
-            <marker date="1566251733650" expanded="true" signature="191:327" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem8.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <marker date="1566251784131" expanded="true" signature="6:55" ph="..." />
-            <marker date="1566251784131" expanded="true" signature="79:2711" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="86:367" ph="/// The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832. ... " />
-            <marker date="1566251784131" expanded="true" signature="393:2709" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="537:2064" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="1763:2018" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="1915:2004" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="2166:2418" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="2292:2380" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="2473:2703" ph="{...}" />
-            <marker date="1566251784131" expanded="true" signature="2605:2665" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

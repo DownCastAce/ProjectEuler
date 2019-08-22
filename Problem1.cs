@@ -1,6 +1,3 @@
-using System;
-using System.Diagnostics;
-
 namespace ProjectEuler
 {
     /// <summary>
@@ -25,9 +22,9 @@ namespace ProjectEuler
             return sum;
         }
         
-        public static long FormulaSolution(long a, long b, long belowValue)
+        public static long Solve(long a, long b, long belowValue)
         {
-            long sum = 0;
+            belowValue -= 1;
             long nForA = (belowValue) / a;
             long resultForA = a * nForA * (nForA+1)/2;
             

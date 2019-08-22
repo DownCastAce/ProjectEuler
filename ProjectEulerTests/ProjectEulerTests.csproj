@@ -42,6 +42,11 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Problem1Tests.cs" />
+        <Compile Include="Problem2Tests.cs" />
+        <Compile Include="Problem3Tests.cs" />
+        <Compile Include="Problem4Tests.cs" />
+        <Compile Include="Problem5Tests.cs" />
         <Compile Include="Problem6Tests.cs" />
         <Compile Include="Problem7Tests.cs" />
         <Compile Include="Problem8Tests.cs" />
